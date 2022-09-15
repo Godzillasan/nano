@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.hero1{
+    background-image: url(./assets/nano-hero1.1.jpg);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    height: 800px; 
+    background-size: cover;
+}
+
+.f, .hero4h1, .lasthero{
+    font-size: 80px;
+    font-weight: bold;
+} 
+
+.b{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-left: 0px;
+}
+
+.t{
+    margin-top: -50px;
+    padding-top: 180px;
+}
+
+.bg{
+    color: #c4fae7;
+    background-color: #084436;
+}
+
+.bg-2{
+    background-color: #c4fae7;
+    color:  #084436;
+}
+
+.hero2{
+    background-color: #fee3bf;
+}
+
+.heroh1{
+    color: #7d3c00;
+}
+
+.herop1{
+    color: #e97a13;
+}
+
+.btny{
+    background-color: #e97a13;
+}
+
+.hero3{
+    background-color: #084436;
+}
+
+.hero3h1{
+    color: #c4fae7;
+}
+
+.hero3btn, .lastherobtn{
+    background-color: #64e1b5;
+    color: #084436;
+}
+
+.hero3p{
+    color: #64e1b5;
+}
+
+.car1{
+    background-color: #084436;
+    color: #c4fae7;
+}
+
+
+.card{
+    height: 432px;
+    width:  471px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.slider-container {
+    width: 100%; 
+    height: 700px;
+    /* position: absolute;  */
+    /* top: 50%;  */
+    /* left: 50%;   */
+    transform: translate(0%, 0%);
+    overflow: hidden;
+}
+.inner-slider {
+    /* width: 150%;  */
+    display: flex;
+    gap: 20px;
+    pointer-events: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.back{
+    background-color: blue;
+}
+
+.hero4btn{
+    background-color: #64e1b5;
+}
+
+.lasthero{
+    background-image: url(./assets/lasthero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.lasthero, .m{
+    margin-top: -1px;
+}
+
+.lastheroh{
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .f, .hero4h1{
+        font-size: 50px;
+        margin-top: -10px;
+        padding-top: -10px;
+   }
+
+    .inner-slider{
+        display: flex;
+        flex-direction: row;
+    }
+    .slider-container{
+        overflow: visible;
+        height: auto;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media screen and (max-width:756px){
+   
+    
+}
